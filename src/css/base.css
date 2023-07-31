@@ -137,11 +137,11 @@ button {
 
 /* Text-align */
 .text-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .text-left {

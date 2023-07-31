@@ -1,22 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <!-- <Demo /> -->
+  <div class="main-container">
+    <TheHeader />
+    <TheMain />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Demo from './components/Demo.vue';
+import TheHeader from "./components/layout/TheHeader.vue";
+import TheMain from "./components/layout/TheMain.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,
-    Demo
+    TheHeader,
+    TheMain,
   },
-}
+};
 </script>
 
-<style>
-
+<style scoped>
+.main-container {
+  overflow: hidden;
+}
 </style>

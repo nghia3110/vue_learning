@@ -149,3 +149,11 @@
 .success-icon {
     background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -1602px -256px;
 }
+
+.edit-icon {
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -1657px -89px;
+}
+
+.action-icon {
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -568px -30px;
+}
