@@ -2,6 +2,8 @@ namespace WebApplication1
 {
     public class WeatherForecast
     {
+
+        public DateTime CreateBy { get; set; };
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
